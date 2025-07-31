@@ -5,6 +5,7 @@ This project demonstrates a Cruise Control and Lane Keeping System for an autono
 <video>
   <source src="carla_sim.mp4" type="video/mp4">
 </video>
+
 # Objective
 Develop and test a modular control system that allows a simulated vehicle to:
 -Maintain a desired speed profile (Cruise Control)
