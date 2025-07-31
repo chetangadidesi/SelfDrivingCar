@@ -2,6 +2,9 @@
 
 This project demonstrates a Cruise Control and Lane Keeping System for an autonomous vehicle using the CARLA simulator. It combines longitudinal control (cruise control) and lateral control (lane keeping) to follow a pre-defined trajectory of waypoints in a simulated urban or racetrack environment.
 
+<video>
+  <source src="carla_sim.mp4" type="video/mp4">
+</video>
 # Objective
 Develop and test a modular control system that allows a simulated vehicle to:
 -Maintain a desired speed profile (Cruise Control)
