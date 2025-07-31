@@ -1,14 +1,15 @@
-Cruise Control and Lane Keeping System in an Autonomous Car (CARLA Simulator)
+## Cruise Control and Lane Keeping System in an Autonomous Car (CARLA Simulator)
+
 This project demonstrates a Cruise Control and Lane Keeping System for an autonomous vehicle using the CARLA simulator. It combines longitudinal control (cruise control) and lateral control (lane keeping) to follow a pre-defined trajectory of waypoints in a simulated urban or racetrack environment.
 
-Objective
+# Objective
 Develop and test a modular control system that allows a simulated vehicle to:
 -Maintain a desired speed profile (Cruise Control)
 -Follow a given lane trajectory accurately (Lane Keeping)
 
 The system is implemented in Python and interfaces with CARLA to control a vehicle in real-time.
 
-How It Works
+# How It Works
 1. Waypoint Loading
 A set of [x, y, speed] waypoints are loaded from racetrack_waypoints.txt, representing the desired path and target speeds along the route.
 
@@ -35,7 +36,7 @@ At each simulation frame:
 
 - Results are logged and optionally plotted live
 
-Output & Visualization
+# Output & Visualization
 Results are saved in the controller_output/ directory:
 
 - trajectory.png: Path followed vs. reference waypoints
@@ -46,7 +47,7 @@ Results are saved in the controller_output/ directory:
 
 - trajectory.txt: Time-stamped pose and speed logs
 
-Technical Background
+# Technical Background
 This project mimics real-world autonomous driving modules:
 - Cruise Control is implemented as a longitudinal controller that regulates vehicle speed based on the difference between target and actual speed.
 - Lane Keeping Assist (LKA) is handled by a lateral controller that minimizes cross-track error and heading error using geometric or feedback-based control.
